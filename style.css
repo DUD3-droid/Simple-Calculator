@@ -1,0 +1,34 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.glass-container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 17px 17px 40px -19px rgba(0,0,0,0.75);
+-webkit-box-shadow: 17px 17px 40px -19px rgba(0,0,0,0.75);
+-moz-box-shadow: 17px 17px 40px -19px rgba(0,0,0,0.75);
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+body{
+    background: #8360c3;
+background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
+background: linear-gradient(to right, #2ebf91, #8360c3); 
+}
+
+#ansDisplay{
+    font-size: 1.3rem;
+}
+
+#ansDisplay span{
+    font-size:2rem;
+    font-weight: bold;
+}
